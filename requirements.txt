@@ -1,0 +1,11 @@
+PyMySQL==0.9.3
+# git+ssh://git@gitlab.infra.ahotels.tech:12422/bigdata/datawarehouse/PyHive.git
+sasl==0.2.1
+thrift==0.11.0
+thrift-sasl==0.3.0
+cx-Oracle==7.2.3
+Flask==1.1.1
+Flask-Admin==1.5.4
+Flask-SQLAlchemy==2.4.1
+uWSGI==2.0.18
+pyapollos==0.1.5

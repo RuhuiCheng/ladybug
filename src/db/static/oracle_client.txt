@@ -1,0 +1,1 @@
+https://cx-oracle.readthedocs.io/en/latest/user_guide/installation.html
