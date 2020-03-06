@@ -2,34 +2,34 @@
 ## Demo Case Running
 > ### unit case   
 > 1. range match with hive timeout   
-     oyodq case=oyo_dw-demo1
+     ladybug case=ladybug_dw-demo1
 
 > 2. range match with mysql timeout   
-     oyodq case=oyo_dw-demo2
+     ladybug case=ladybug_dw-demo2
 
 > 3. range match with oracle timeout   
-     oyodq case=oyo_dw-demo3
+     ladybug case=ladybug_dw-demo3
 
 > 4. exactly match failed   
-     oyodq case=oyo_dw-demo4
+     ladybug case=ladybug_dw-demo4
 
 > 5. exactly match success   
-     oyodq case=oyo_dw-demo5
+     ladybug case=ladybug_dw-demo5
 
 > 6. exactly match for schemal check   
-     oyodq case=oyo_dw-demo6
+     ladybug case=ladybug_dw-demo6
 
 > ### case group   
 > 1. run group_demo1   
-     oyodq group=group_demo1
+     ladybug group=group_demo1
 > 2. run group_demo2   
-     oyodq group=group_demo2
+     ladybug group=group_demo2
 > 3. run group_demo3   
-     oyodq group=group_demo3
+     ladybug group=group_demo3
 
 > ### case scenarios   
 > 1. run case scenarios   
-     oyodq scenarios=oyo_scenarios_demo1
+     ladybug scenarios=ladybug_scenarios_demo1
 ## Comparation Option List:
 1. __> Rowcount (Primary key change)__
 2. __> Data row duplicate check(by per table unique key )__
@@ -45,8 +45,8 @@
 ## Naming rule
 |Category|Nameing|Demo|
 |--------|-------|----|
-| case | [count,schema,measure] . [dim,fact,dm,job,report] . [db] . [table] . [name] | count.dim.oyo_dw.dim_hotel_base.clc_categroy_distinct |
-| group | [hive,mysql,oracle].[db].[name] | hive.oyo_dw.hote_agreement |
+| case | [count,schema,measure] . [dim,fact,dm,job,report] . [db] . [table] . [name] | count.dim.ladybug_dw.dim_hotel_base.clc_categroy_distinct |
+| group | [hive,mysql,oracle].[db].[name] | hive.ladybug_dw.hote_agreement |
 | scenarios | [name] | hotel
 
 ## Note:

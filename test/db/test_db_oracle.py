@@ -9,9 +9,9 @@ def test_get_list():
         sql_text = 'SELECT 1 AS c1 FROM sys.dual'
         oracle_host = '10.200.71.247'
         oracle_port = 1521
-        oracle_user = 'oyo_dw'
+        oracle_user = 'ladybug_dw'
         oracle_password = "eOD'F9A3q2m~om_tfCKz"
-        oracle_database = 'oyodw'
+        oracle_database = 'ladybugdw'
         timeout = 60
         logger.info("get conn")
         conn = db_oracle.get_conn(

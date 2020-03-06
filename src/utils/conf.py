@@ -7,20 +7,20 @@ class Config:
     log_path = '/data/logs/bigdata-dq'
     log_level = 'INFO'
     # smtp server
-    mail_host = 'smtp.oyohotels.cn'
+    mail_host = 'smtp.ladybughotels.cn'
     # smtp port
     mail_port = 465
     # smtp_user
-    mail_user = 'bigdata@oyohotels.cn'
+    mail_user = 'bigdata@ladybughotels.cn'
     # smtp_password
-    mail_password = 'OYO123oyo'
+    mail_password = 'ladybug123ladybug'
     # mail_sender
-    mail_sender = 'bigdata@oyohotels.cn'
+    mail_sender = 'bigdata@ladybughotels.cn'
 
 
 class PRDConfig(Config):
     # mysql metadata
-    mysql_host = 'oyo-dev-database.mysql.rds.aliyuncs.com'
+    mysql_host = 'ladybug-dev-database.mysql.rds.aliyuncs.com'
     mysql_port = 3306
     mysql_user = 't_data_quality_1'
     mysql_password = 'gdeESFxmiZf31YIQ$@b0'
@@ -31,7 +31,7 @@ class DEVConfig(Config):
     # Basic info
     log_level = 'INFO'
     # log_path = '/data/logs/bigdata-dq'
-    log_path = '/Users/oyo04316/Documents/repo/bigdata-dq/log'
+    log_path = '/Users/ladybug04316/Documents/repo/bigdata-dq/log'
     # QQ mail
     mail_host = 'smtp.qq.com'
     mail_port = 465

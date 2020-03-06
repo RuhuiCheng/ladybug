@@ -11,7 +11,7 @@ def test_get_list():
         hive_port = 10000
         hive_user = 'bigdata_etl'
         hive_password = 'internal'
-        hive_database = 'oyo_dw'
+        hive_database = 'ladybug_dw'
         timeout = 60
         logger.info("get conn")
         conn = db_hive.get_conn(

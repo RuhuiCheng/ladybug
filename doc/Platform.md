@@ -11,7 +11,7 @@
 INSERT INTO data_quality.task_case
 (task_case_name, description, source_sql, source_connect_id, destination_sql, destination_connect_id, is_enabled, match_type, threshlod_low, threshlod_high, duration_limit, last_run,owner_id,dq_email_id)
 VALUES
-('oyo_dw-demo6', 'exactly match for schemal check', "SELECT case column_name when 'user_id' then 'id' when 'user_name' then 'foo' when 'addr' then 'bar' else column_name end as 'field' FROM information_schema.columns WHERE table_name = 'source_user' AND table_schema = 'oyo_source'", 2, 'SHOW COLUMNS FROM oyo_dw.demo1', 1, 1, 1, 0, 0, 10, NULL,1,1);
+('ladybug_dw-demo6', 'exactly match for schemal check', "SELECT case column_name when 'user_id' then 'id' when 'user_name' then 'foo' when 'addr' then 'bar' else column_name end as 'field' FROM information_schema.columns WHERE table_name = 'source_user' AND table_schema = 'ladybug_source'", 2, 'SHOW COLUMNS FROM ladybug_dw.demo1', 1, 1, 1, 0, 0, 10, NULL,1,1);
 ````
 | column | comment |
 | ------ | ------- |
@@ -39,9 +39,9 @@ VALUES
    3. Manual run   
        | id | Framework provide three running level |
        | --- | --------------------------------------|
-       | 1 | oyodq case=oyo_dw-demo1 |
-       | 2 | oyodq group=group_demo1 |
-       | 3 | oyodq scenarios=oyo_scenarios_demo1 |
+       | 1 | ladybug case=ladybug_dw-demo1 |
+       | 2 | ladybug group=group_demo1 |
+       | 3 | ladybug scenarios=ladybug_scenarios_demo1 |
 ## Disable a case   
     Update IsEnabled to false
 ## Extend plugin    

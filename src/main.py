@@ -39,9 +39,9 @@ def __setup_param():
     logger.info("-----------------------------------------")
     logger.info("please follow the below pattern.")
     logger.info("-----------------------------------------")
-    logger.info("oyodq case=case_name")
-    logger.info("oyodq group=group_name")
-    logger.info("oyodq scenarios=scenarios_name")
+    logger.info("ladybug case=case_name")
+    logger.info("ladybug group=group_name")
+    logger.info("ladybug scenarios=scenarios_name")
     logger.info("-----------------------------------------")
 
 
