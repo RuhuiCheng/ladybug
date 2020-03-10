@@ -1,10 +1,10 @@
 # Data Quality Platform
 
 ## Data Issue
-![alt data issue](https://images.cnblogs.com/cnblogs_com/chengruhui/1595405/o_Data_Issue.png)
+![alt data issue](https://raw.githubusercontent.com/RuhuiCheng/ladybug/master/doc/o_Data_Issue.png)
 
 ## Framework architecture
-![alt architecture](https://images.cnblogs.com/cnblogs_com/chengruhui/1595405/o_data_quality_platform.png)
+![alt architecture](https://raw.githubusercontent.com/RuhuiCheng/ladybug/master/doc/o_data_quality_platform.png)
 
 ## Add new test case
 ````sql
