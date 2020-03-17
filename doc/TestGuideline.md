@@ -57,8 +57,3 @@
 | 3 | test case duration must be reasonable |
 | 4 | every column should have name |
 | 5 | avoid one big test case (use severalsmall test case to instead of big one)|
-
-## Development Plan
-1. __UI Revamp (1.Login[LDAP] 2.Permission......)__
-2. More data source support (1.Spark 2.kafka 3.ElasticSearch......)
-3. Distribution run( message queue:redis )
