@@ -56,4 +56,4 @@
 | 2 | data column is order sensitive |
 | 3 | test case duration must be reasonable |
 | 4 | every column should have name |
-| 5 | avoid one big test case (use severalsmall test case to instead of big one)|
+| 5 | avoid one big test case (use several small test case to instead of big one)|
