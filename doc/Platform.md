@@ -1,10 +1,10 @@
 # Data Quality Platform
 
 ## Data Issue
-![alt data issue](https://raw.githubusercontent.com/RuhuiCheng/ladybug/master/doc/o_Data_Issue.png)
+![alt data issue](https://note.youdao.com/yws/api/personal/file/26F351A3F115464683E664F971C66B20?method=download&shareKey=c721e884088584db819d8c81755cab4f)
 
 ## Framework architecture
-![alt architecture](https://raw.githubusercontent.com/RuhuiCheng/ladybug/master/doc/o_data_quality_platform.png)
+![alt architecture](https://note.youdao.com/yws/api/personal/file/BE7C6047007F48889883EA0BC342067D?method=download&shareKey=c721e884088584db819d8c81755cab4f)
 
 ## Add new test case
 ````sql
